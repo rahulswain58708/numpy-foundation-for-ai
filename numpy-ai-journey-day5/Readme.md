@@ -95,7 +95,7 @@ print("Sub-matrix:\n", matrix[1:3, 1:3])
 
 - ✅ NumPy Basics
 - ✅ Indexing & Slicing
-- ⏭ Next: Boolean Indexing & Broadcasting
+- ⏭ Next: Broadcasting & Vectorization
 
 ---
 
