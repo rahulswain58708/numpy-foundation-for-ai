@@ -1,9 +1,7 @@
-# 🔟 Mean Centering (Column-wise)
+# 5️⃣ Subtract Vector from Matrix
 import numpy as np
-arr = np.array([[10, 20],
-                [30, 40],
-                [50, 60]])
-# Subtract column mean from each column using broadcasting.
-col_mean = arr.mean(axis=0)
-res = arr - col_mean
-print(res)
+arr = np.array([[5, 10, 15],
+                [20, 25, 30]])
+vec = np.array([5, 5, 5])
+# Subtract vec from arr.
+print(arr - vec)

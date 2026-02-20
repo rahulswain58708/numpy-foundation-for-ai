@@ -1,10 +1,6 @@
-# 7️⃣ Broadcasting with Different Dimensions
+# 2️⃣ Multiply 2D Array by Scalar
 import numpy as np
-a = np.array([[1], [2], [3]])   # shape (3,1)
-b = np.array([10, 20, 30])      # shape (3,)
-
-
-# Add a + b.
-res = a + b
-print(res)
-# What is result shape? (3,3)
+arr = np.array([[1, 2], 
+                 [3, 4]])
+#Multiply every element by 10.
+print(arr * 10)

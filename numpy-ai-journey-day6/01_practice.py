@@ -1,8 +1,5 @@
-# 6️⃣ 3D + 1D Broadcasting
+# 1️⃣ Add Scalar
 import numpy as np
-arr = np.ones((2, 3, 4)) 
-vec = np.array([1, 2, 3, 4]) 
-# Add vec to arr.
-res = vec + arr
-print(res)
-# 👉 What will be final shape? (2,3,4)
+arr = np.array([1, 2, 3, 4])
+# Add 5 to every element using broadcasting.
+print(arr + 5)
