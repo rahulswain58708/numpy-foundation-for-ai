@@ -43,13 +43,11 @@ view_arr = arr.view()
 
 print(copy_arr.base)
 print(view_arr.base)
+
 📌 Output:
+
 None
 [1 2 3 4 5]
-
-None → Owns data (Copy)
-
-Not None → Shares data (View)
 
 | Feature          | Copy  | View  |
 | ---------------- | ----- | ----- |
@@ -72,5 +70,9 @@ Writing efficient ML pipelines
 📈 Progress Status
 
 ✔️ Day 9 Completed
+
+
 ✔️ Stronger understanding of NumPy memory behavior
+
+
 🚀 Next Topic: joining & spliting numpy array
