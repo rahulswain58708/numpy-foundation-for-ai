@@ -35,19 +35,29 @@ View Array: [50  2  3  4  5]
 
 We can check whether an array owns its data using .base
 
+```
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
+
 copy_arr = arr.copy()
+
+
 view_arr = arr.view()
 
+
 print(copy_arr.base)
+
 print(view_arr.base)
+```
 
 📌 Output:
-
+```
 None
+
 [1 2 3 4 5]
+
+```
 
 | Feature          | Copy  | View  |
 | ---------------- | ----- | ----- |
